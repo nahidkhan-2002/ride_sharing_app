@@ -37,7 +37,7 @@ class _CarepageState extends State<Carepage> {
         },
         items: navbarItems,
       ),
-      
+
       drawer: drawerstyle(context),
       body: LayoutBuilder(
         builder: (context, constraints) {
@@ -97,9 +97,9 @@ class _CarepageState extends State<Carepage> {
                           width: double.infinity,
                           color: const Color.fromARGB(73, 158, 158, 158),
                         ),
-                        
+
                         SizedBox(height: 50),
-                        
+
                         // Care Recommendations
                         Row(
                           children: [
@@ -127,10 +127,10 @@ class _CarepageState extends State<Carepage> {
                           ],
                         ),
                         SizedBox(height: 20),
-                       
+
                         SizedBox(
                           height: containerHeight + 30,
-                          
+
                           //care recommendations slides
                           child: SingleChildScrollView(
                             scrollDirection: Axis.horizontal,
@@ -234,8 +234,8 @@ class _CarepageState extends State<Carepage> {
                         ),
 
                         SizedBox(height: 30),
+
                         // Buy Service Packages
-                        
                         Row(
                           children: [
                             Text(
@@ -262,10 +262,10 @@ class _CarepageState extends State<Carepage> {
                         ),
 
                         SizedBox(height: 20),
-                       
+
                         SizedBox(
                           height: containerHeight + 300,
-                          
+
                           //service package grid
                           child: GridView(
                             gridDelegate:
